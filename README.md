@@ -18,14 +18,16 @@ The code performs:
 
 ## 2. Repository Structure
 
+```
 HET/
 ├── scripts/
-│   ├── main.py # Main pipeline controller
-│   ├── models.py # Model training with SGKF + AG/sklearn
-│   └── feature_importance.py # SHAP utilities and bootstrapping
-├── example.csv # Example input format
-├── outputs/ # Automatically generated results
+│   ├── main.py                # Main pipeline controller
+│   ├── models.py              # Model training with SGKF + AG/sklearn
+│   └── feature_importance.py  # SHAP utilities and bootstrapping
+├── example.csv                # Example input format
+├── outputs/                   # Automatically generated results
 └── README.md
+```
 
 ---
 
