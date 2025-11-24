@@ -19,29 +19,31 @@ HET uses SHAP values to determine how strongly each region contributes to distin
   <table>
     <tr>
       <td align="center">
-        <img src="msa-c-t1.gif" width="300" alt="GIF 1"/><br/>
+        <img src="msa-c-t1.gif" width="400" alt="GIF 1"/><br/>
         <sub><b>OPCA by volume HET at baseline and 1 year follow-up.</b></sub>
       </td>
       <td align="center">
-        <img src="msa-p-t1.gif" width="300" alt="GIF 2"/><br/>
+        <img src="msa-p-t1.gif" width="400" alt="GIF 2"/><br/>
         <sub><b>Description 2</b></sub>
-      </td>
-      <td align="center">
-        <img src="path/to/your/gif3.gif" width="300" alt="GIF 3"/><br/>
-        <sub><b>Description 3</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="path/to/your/gif4.gif" width="300" alt="GIF 4"/><br/>
-        <sub><b>Description 4</b></sub>
+        <img src="path/to/your/gif3.gif" width="400" alt="GIF 3"/><br/>
+        <sub><b>Description 3</b></sub>
       </td>
       <td align="center">
-        <img src="path/to/your/gif5.gif" width="300" alt="GIF 5"/><br/>
+        <img src="path/to/your/gif4.gif" width="400" alt="GIF 4"/><br/>
+        <sub><b>Description 4</b></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="path/to/your/gif5.gif" width="400" alt="GIF 5"/><br/>
         <sub><b>Description 5</b></sub>
       </td>
       <td align="center">
-        <img src="path/to/your/gif6.gif" width="300" alt="GIF 6"/><br/>
+        <img src="path/to/your/gif6.gif" width="400" alt="GIF 6"/><br/>
         <sub><b>Description 6</b></sub>
       </td>
     </tr>
