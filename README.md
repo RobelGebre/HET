@@ -1,18 +1,53 @@
 # HET: Heterogeneity of Multiple System Atrophy Using Machine Learning and MRI
 
-This repository provides a complete pipeline for computing **Heterogeneity (HET) scores** from MRI-derived features using SHAP-based regional weighting. HET captures spatial heterogeneity across structural or diffusion MRI inputs and is derived directly from model-based feature importance.
+This repository contains the pipeline for computing **Heterogeneity (HET) scores** from MRI-derived features using SHAP-based regional weighting. HET captures spatial heterogeneity across structural or diffusion MRI inputs and is derived directly from model-based feature importance.
 
 The code performs:
 
-1. **Model training** (AutoGluon or tree-based classifiers)
-2. **SHAP feature attribution**
-3. **Groupwise SHAP weighting** (Eq. 1)
-4. **Weighted regional feature construction** (Eq. 2)
-5. **HET score computation** (Eq. 3)
+1. Model training (AutoGluon or tree-based classifiers)
+2. SHAP feature attribution
+3. SHAP weighting of regional feature construction
+4. HET score computation
 
 ---
 
 ## 1. Concept
+
+HET uses SHAP values to determine how strongly each region contributes to distinguishing diagnostic groups. These SHAP weights are applied to each subject's MRI features, and the weighted features are averaged to produce a single heterogeneity score.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="msa-c-t1.gif" width="300" alt="GIF 1"/><br/>
+        <sub><b>OPCA patterns identified by volume HET at basline and 1 year follow-up.</b></sub>
+      </td>
+      <td align="center">
+        <img src="path/to/your/gif2.gif" width="300" alt="GIF 2"/><br/>
+        <sub><b>Description 2</b></sub>
+      </td>
+      <td align="center">
+        <img src="path/to/your/gif3.gif" width="300" alt="GIF 3"/><br/>
+        <sub><b>Description 3</b></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="path/to/your/gif4.gif" width="300" alt="GIF 4"/><br/>
+        <sub><b>Description 4</b></sub>
+      </td>
+      <td align="center">
+        <img src="path/to/your/gif5.gif" width="300" alt="GIF 5"/><br/>
+        <sub><b>Description 5</b></sub>
+      </td>
+      <td align="center">
+        <img src="path/to/your/gif6.gif" width="300" alt="GIF 6"/><br/>
+        <sub><b>Description 6</b></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
 
 ---
 
