@@ -20,7 +20,7 @@ HET uses SHAP values to determine how strongly each region contributes to distin
     <tr>
       <td align="center">
         <img src="msa-c-t1.gif" width="300" alt="GIF 1"/><br/>
-        <sub><b>OPCA patterns identified by volume HET at basline and 1 year follow-up.</b></sub>
+        <sub><b>OPCA by volume HET at baseline and 1 year follow-up.</b></sub>
       </td>
       <td align="center">
         <img src="path/to/your/gif2.gif" width="300" alt="GIF 2"/><br/>
