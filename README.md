@@ -29,7 +29,7 @@ HET uses SHAP values to determine how strongly each region contributes to distin
     </tr>
     <tr>
       <td align="center">
-        <img src="path/to/your/gif3.gif" width="300" alt="GIF 3"/><br/>
+        <img src="msa-c-fa.gif" width="300" alt="GIF 3"/><br/>
         <sub><b>Description 3</b></sub>
       </td>
       <td align="center">
@@ -53,7 +53,7 @@ HET uses SHAP values to determine how strongly each region contributes to distin
 
 ---
 
-## 2. Repository Structure
+## 2. Repo Structure
 
 ```
 HET/
