@@ -18,32 +18,40 @@ HET captures regional hetergeniety of MSA. The following are the patterns identi
 <div align="center">
   <table>
     <tr>
+      <th align="center"></th>
+      <th align="center"><b>MSA-C</b></th>
+      <th align="center"><b>MSA-P</b></th>
+    </tr>
+    <tr>
+      <td align="center"><b>Volume</b></td>
       <td align="center">
-        <img src="msa-c-t1.gif" width="300" alt="GIF 1"/><br/>
+        <img src="resources/gifs/msa-c-t1.gif" width="300" alt="GIF 1"/><br/>
         <sub><b>OPCA by volume HET at baseline and 1 year follow-up.</b></sub>
       </td>
       <td align="center">
-        <img src="msa-p-t1.gif" width="300" alt="GIF 2"/><br/>
+        <img src="resources/gifs/msa-p-t1.gif" width="300" alt="GIF 2"/><br/>
         <sub><b>Description 2</b></sub>
       </td>
     </tr>
     <tr>
+      <td align="center"><b>FA</b></td>
       <td align="center">
-        <img src="msa-c-fa.gif" width="300" alt="GIF 3"/><br/>
+        <img src="resources/gifs/msa-c-fa.gif" width="300" alt="GIF 3"/><br/>
         <sub><b>Description 3</b></sub>
       </td>
       <td align="center">
-        <img src="msa-p-fa.gif" width="300" alt="GIF 4"/><br/>
+        <img src="resources/gifs/msa-p-fa.gif" width="300" alt="GIF 4"/><br/>
         <sub><b>Description 4</b></sub>
       </td>
     </tr>
     <tr>
+      <td align="center"><b>MD</b></td>
       <td align="center">
-        <img src="path/to/your/gif5.gif" width="300" alt="GIF 5"/><br/>
+        <img src="resources/gifs/msa-c-md.gif" width="300" alt="GIF 5"/><br/>
         <sub><b>Description 5</b></sub>
       </td>
       <td align="center">
-        <img src="path/to/your/gif6.gif" width="400" alt="GIF 6"/><br/>
+        <img src="resources/gifs/msa-p-md.gif" width="300" alt="GIF 6"/><br/>
         <sub><b>Description 6</b></sub>
       </td>
     </tr>
@@ -130,7 +138,7 @@ If you use this code or methodology in your research, please cite:
 
 ```bibtex
 @article{your_paper,
-  title={Heterogeneity Scoring From SHAP-Weighted MRI Features},
+  title={MSA Heterogeneity using MRI and ML},
   author={Your Name et al.},
   journal={Journal Name},
   year={2025}
