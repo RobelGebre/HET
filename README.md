@@ -1,6 +1,6 @@
 # HET: Heterogeneity of Multiple System Atrophy Using Machine Learning and MRI
 
-This repository contains the pipeline for running several machine learning models with MRI-derived features as inputs and diagnosis as output: multiple system atrophy (0) and Parkinson's disease (PD, 1). Cross-validation using ten random seeds is used to search for the optimal model with least overfitting and best performance. The final model is used to compute **Heterogeneity (HET) scores** to account for subtype specific hetergeniety in MSA. The HET framework captures spatial heterogeneity across structural and diffusion MRI inputs and is derived directly from model-based feature importances which avoids prior assumption of histopathologic regional importance. All the patterns identified by HET match prior reporting on brain regions important for MSA-C and MSA-P. For futher details refer to the citations given at the end of this page.
+This repository contains the pipeline for running several machine learning models with MRI-derived features as inputs and diagnosis as output: multiple system atrophy (0) and Parkinson's disease (PD, 1). Cross-validation using ten random seeds is used to search for the optimal model with least overfitting and best performance. The final model is used to compute **Heterogeneity (HET) scores** to account for subtype specific heterogeneity in MSA. The HET framework captures spatial heterogeneity across structural and diffusion MRI inputs and is derived directly from model-based feature importances which avoids prior assumption of histopathologic regional importance. All the patterns identified by HET match prior reporting on brain regions important for MSA-C and MSA-P. For further details refer to the citations given at the end of this page.
 
 The code provided in this repo performs:
 
@@ -13,7 +13,7 @@ The code provided in this repo performs:
 
 ## 1. Concept
 
-HET captures regional hetergeniety of MSA. The following are the patterns identied by volume (top row), fractional anisotropy (FA) (middle row), and mean difusvity (MD) (bottom row) derived HET specific to MSA-C (left) and MSA-P (right)
+HET captures regional heterogeneity of MSA. The following are the patterns identified by volume (top row), fractional anisotropy (FA) (middle row), and mean diffusivity (MD) (bottom row) derived HET specific to MSA-C (left) and MSA-P (right)
 
 <div align="center">
   <table>
