@@ -95,12 +95,6 @@ Feature names are automatically inferred by removing `ID`, `visit`, and `dx`.
 
 ## 4. Running the Pipeline
 
-### Fresh run (train + SHAP + HET)
-
-```
-python main.py --fresh_run True --scaledata True --do_boot True
-```
-
 | Argument         | Description                            | Default  |
 | ---------------- | -------------------------------------- | -------- |
 | `--fresh_run`  | Train new models or load existing ones | True     |
@@ -109,6 +103,17 @@ python main.py --fresh_run True --scaledata True --do_boot True
 | `--target`     | Target label column                    | dx       |
 | `--model`      | Model identifier folder                | volume   |
 | `--todays_run` | Custom run ID                          | YYYYMMDD |
+
+* Model training (--fresh_run True)
+```
+python main.py --fresh_run True --scaledata True
+```
+
+* SHAP + HET (--fresh_run False)
+```
+python main.py --fresh_run False --do_boot True
+```
+
 
 ---
 
@@ -137,9 +142,9 @@ HET Output:
 If you use this code or methodology in your research, please cite:
 
 ```bibtex
-@article{your_paper,
+@article{paper,
   title={MSA Heterogeneity using MRI and ML},
-  author={Your Name et al.},
+  author={Gebre et al.},
   journal={Journal Name},
   year={2025}
 }
