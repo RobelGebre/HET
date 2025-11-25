@@ -77,7 +77,7 @@ HET/
 └── requirements.txt
 ```
 
-To insall all packages first run:
+#### First order of business: If you haven't already, install these packages using the following command:
 
 ```
 pip install -r requirements.txt
