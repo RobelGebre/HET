@@ -1,19 +1,19 @@
 # HET: Heterogeneity of Multiple System Atrophy Using Machine Learning and MRI
 
-This repository contains the pipeline for computing **Heterogeneity (HET) scores** from MRI-derived features using SHAP-based regional weighting. HET captures spatial heterogeneity across structural or diffusion MRI inputs and is derived directly from model-based feature importance.
+This repository contains the pipeline for running several machine learning models with MRI-derived features as inputs and diagnosis as output: multiple system atrophy (0) and Parkinson's disease (PD, 1). Cross-validation using ten random seeds is used to search for the optimal model with least overfitting and best performance. The final model is used to compute **Heterogeneity (HET) scores** to account for subtype specific hetergeniety in MSA. The HET framework captures spatial heterogeneity across structural and diffusion MRI inputs and is derived directly from model-based feature importances which avoids prior assumption of histopathologic regional importance. All the patterns identified by HET match prior reporting on brain regions important for MSA-C and MSA-P. For futher details refer to the citations given at the end of this page.
 
-The code performs:
+The code provided in this repo performs:
 
-1. Model training (AutoGluon or tree-based classifiers)
+1. Model training (AutoGluon and 4 tree-based classifiers)
 2. SHAP feature attribution
-3. SHAP weighting of regional feature construction
+3. Weighting of regional feature construction
 4. HET score computation
 
 ---
 
 ## 1. Concept
 
-HET uses SHAP values to determine how strongly each region contributes to distinguishing diagnostic groups. These SHAP weights are applied to each subject's MRI features, and the weighted features are averaged to produce a single heterogeneity score.
+HET captures regional hetergeniety of MSA. The following are the patterns identied by volume (top row), fractional anisotropy (FA) (middle row), and mean difusvity (MD) (bottom row) derived HET specific to MSA-C (left) and MSA-P (right)
 
 <div align="center">
   <table>
@@ -33,7 +33,7 @@ HET uses SHAP values to determine how strongly each region contributes to distin
         <sub><b>Description 3</b></sub>
       </td>
       <td align="center">
-        <img src="path/to/your/gif4.gif" width="300" alt="GIF 4"/><br/>
+        <img src="msa-p-fa.gif" width="300" alt="GIF 4"/><br/>
         <sub><b>Description 4</b></sub>
       </td>
     </tr>
@@ -49,7 +49,6 @@ HET uses SHAP values to determine how strongly each region contributes to distin
     </tr>
   </table>
 </div>
-
 
 ---
 
