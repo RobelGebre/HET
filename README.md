@@ -26,33 +26,33 @@ HET captures regional heterogeneity of MSA. The following are the patterns ident
       <td align="center"><b>Volume</b></td>
       <td align="center">
         <img src="resources/gifs/msa-c-t1.gif" width="200" height="120" alt="GIF 1"/><br/>
-        <sub><b>MSA-C Volume HET, t=0 &rarr; 1 year.</b></sub>
+        <sub><b>MSA-C Volume HET, t=0 → 1 year.</b></sub>
       </td>
       <td align="center">
         <img src="resources/gifs/msa-p-t1.gif" width="200" height="120" alt="GIF 2"/><br/>
-        <sub><b>MSA-P Volume HET, t=0 &rarr; 1 year.</b></sub>
+        <sub><b>MSA-P Volume HET, t=0 → 1 year.</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center"><b>FA</b></td>
       <td align="center">
         <img src="resources/gifs/msa-c-fa.gif" width="200" height="120" alt="GIF 3"/><br/>
-        <sub><b>MSA-C FA HET, t=0 &rarr; 1 year.</b></sub>
+        <sub><b>MSA-C FA HET, t=0 → 1 year.</b></sub>
       </td>
       <td align="center">
         <img src="resources/gifs/msa-p-fa.gif" width="200" height="120" alt="GIF 4"/><br/>
-        <sub><b>MSA-P FA HET, t=0 &rarr; 1 year.</b></sub>
+        <sub><b>MSA-P FA HET, t=0 → 1 year.</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center"><b>MD</b></td>
       <td align="center">
         <img src="resources/gifs/msa-c-md.gif" width="200" height="120" alt="GIF 5"/><br/>
-        <sub><b>MSA-C MD HET, t=0 &rarr; 1 year.</b></sub>
+        <sub><b>MSA-C MD HET, t=0 → 1 year.</b></sub>
       </td>
       <td align="center">
         <img src="resources/gifs/msa-p-md.gif" width="200" height="120" alt="GIF 6"/><br/>
-        <sub><b>MSA-P MD HET, t=0 &rarr; 1 year.</b></sub>
+        <sub><b>MSA-P MD HET, t=0 → 1 year.</b></sub>
       </td>
     </tr>
   </table>
@@ -60,7 +60,9 @@ HET captures regional heterogeneity of MSA. The following are the patterns ident
 
 ---
 
-## 2. Repo Structure
+## 2. Getting started
+
+#### Repo Structure
 
 ```
 HET/
@@ -70,7 +72,15 @@ HET/
 │   └── feature_importance.py  # SHAP utilities and bootstrapping
 ├── example.csv                # Example input format
 ├── outputs/                   # Automatically generated results
+├── resources/gifs
 └── README.md
+└── requirements.txt
+```
+
+To insall all packages first run:
+
+```
+pip install -r requirements.txt
 ```
 
 ---
@@ -105,15 +115,16 @@ Feature names are automatically inferred by removing `ID`, `visit`, and `dx`.
 | `--todays_run` | Custom run ID                          | YYYYMMDD |
 
 * Model training (--fresh_run True)
+
 ```
 python main.py --fresh_run True --scaledata True
 ```
 
 * SHAP + HET (--fresh_run False)
+
 ```
 python main.py --fresh_run False --do_boot True
 ```
-
 
 ---
 
@@ -123,17 +134,17 @@ Model Outputs:
 
 * Best classifier per seed
 * Cross-validation metrics
-* AutoGluon predictor folder (if used)
+* Best predictor folder
 
 SHAP Outputs:
 
 * shap_boot_mean_class_0.csv (or shap_values_class_0.csv)
 * Class-specific SHAP CSVs
-* SHAP summary plots per class
+* Summary plots per class
 
 HET Output:
 
-* Final data with weighted features and HET scores: training_data_het.csv
+* Final data with weighted features and HET scores: '*your_file_het.csv*'
 
 ---
 

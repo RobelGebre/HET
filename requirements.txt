@@ -1,0 +1,11 @@
+catboost==1.2.3
+joblib==1.3.2
+lightgbm==4.6.0
+matplotlib==3.7.5
+numpy==1.24.4
+pandas==2.0.3
+seaborn==0.11.2
+shap==0.44.1
+tqdm==4.65.2
+xgboost==1.7.6
+autogluon==1.1.1
