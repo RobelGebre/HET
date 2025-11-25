@@ -25,34 +25,34 @@ HET captures regional heterogeneity of MSA. The following are the patterns ident
     <tr>
       <td align="center"><b>Volume</b></td>
       <td align="center">
-        <img src="resources/gifs/msa-c-t1.gif" width="300" alt="GIF 1"/><br/>
-        <sub><b>OPCA by volume HET at baseline and 1 year follow-up.</b></sub>
+        <img src="resources/gifs/msa-c-t1.gif" width="180" height="120" alt="GIF 1"/><br/>
+        <sub><b>MSA-C Volume HET, t=0 &rarr; 1 year.</b></sub>
       </td>
       <td align="center">
-        <img src="resources/gifs/msa-p-t1.gif" width="300" alt="GIF 2"/><br/>
-        <sub><b>Description 2</b></sub>
+        <img src="resources/gifs/msa-p-t1.gif" width="180" height="120" alt="GIF 2"/><br/>
+        <sub><b>MSA-P Volume HET, t=0 &rarr; 1 year.</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center"><b>FA</b></td>
       <td align="center">
-        <img src="resources/gifs/msa-c-fa.gif" width="300" alt="GIF 3"/><br/>
-        <sub><b>Description 3</b></sub>
+        <img src="resources/gifs/msa-c-fa.gif" width="180" height="120" alt="GIF 3"/><br/>
+        <sub><b>MSA-C FA HET, t=0 &rarr; 1 year.</b></sub>
       </td>
       <td align="center">
-        <img src="resources/gifs/msa-p-fa.gif" width="300" alt="GIF 4"/><br/>
-        <sub><b>Description 4</b></sub>
+        <img src="resources/gifs/msa-p-fa.gif" width="180" height="120" alt="GIF 4"/><br/>
+        <sub><b>MSA-P FA HET, t=0 &rarr; 1 year.</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center"><b>MD</b></td>
       <td align="center">
-        <img src="resources/gifs/msa-c-md.gif" width="300" alt="GIF 5"/><br/>
-        <sub><b>Description 5</b></sub>
+        <img src="resources/gifs/msa-c-md.gif" width="180" height="120" alt="GIF 5"/><br/>
+        <sub><b>MSA-C MD HET, t=0 &rarr; 1 year.</b></sub>
       </td>
       <td align="center">
-        <img src="resources/gifs/msa-p-md.gif" width="300" alt="GIF 6"/><br/>
-        <sub><b>Description 6</b></sub>
+        <img src="resources/gifs/msa-p-md.gif" width="180" height="120" alt="GIF 6"/><br/>
+        <sub><b>MSA-P MD HET, t=0 &rarr; 1 year.</b></sub>
       </td>
     </tr>
   </table>
