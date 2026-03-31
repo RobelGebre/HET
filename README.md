@@ -153,11 +153,11 @@ HET Output:
 If you use this code or methodology in your research, please cite:
 
 ```bibtex
-@article{paper,
-  title={MSA Heterogeneity using MRI and ML},
+@article{title={Precise disease heterogeneity and progression quantification in MSA and Parkinson’s disease using machine learning},
   author={Gebre et al.},
-  journal={Journal Name},
-  year={2025}
+  journal={Sci Rep},
+  year={30 March 2026},
+  DOI={https://doi.org/10.1038/s41598-026-45949-5}
 }
 ```
 
