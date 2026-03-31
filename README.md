@@ -153,12 +153,7 @@ HET Output:
 If you use this code or methodology in your research, please cite:
 
 ```bibtex
-@article{title={Precise disease heterogeneity and progression quantification in MSA and Parkinson’s disease using machine learning},
-  author={Gebre et al.},
-  journal={Sci Rep},
-  year={30 March 2026},
-  DOI={https://doi.org/10.1038/s41598-026-45949-5}
-}
+Gebre, R.K., Raghavan, S., De Tora, M.E.J. et al. Precise disease heterogeneity and progression quantification in MSA and Parkinson’s disease using machine learning. Sci Rep 16, 10579 (2026). https://doi.org/10.1038/s41598-026-45949-5
 ```
 
 ---
