@@ -153,7 +153,16 @@ HET Output:
 If you use this code or methodology in your research, please cite:
 
 ```bibtex
-Gebre, R.K., Raghavan, S., De Tora, M.E.J. et al. Precise disease heterogeneity and progression quantification in MSA and Parkinson’s disease using machine learning. Sci Rep 16, 10579 (2026). https://doi.org/10.1038/s41598-026-45949-5
+@article{gebre2026msa_pd_ml,
+author = {Gebre, R. K. and Raghavan, S. and De Tora, M. E. J. and others},
+title = {Precise disease heterogeneity and progression quantification in MSA and Parkinson’s disease using machine learning},
+journal = {Scientific Reports},
+year = {2026},
+volume = {16},
+pages = {10579},
+doi = {10.1038/s41598-026-45949-5},
+url = {https://doi.org/10.1038/s41598-026-45949-5}
+}Gebre, R.K., Raghavan, S., De Tora, M.E.J. et al. Precise disease heterogeneity and progression quantification in MSA and Parkinson’s disease using machine learning. Sci Rep 16, 10579 (2026). https://doi.org/10.1038/s41598-026-45949-5
 ```
 
 ---
